@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "zamsilThin";
+    src: url("../../public/font/The Jamsil OTF 1 Thin.otf");
+}
+
+@font-face {
+    font-family: "zamsilLight";
+    src: url("../../public/font/The\ Jamsil\ OTF\ 2\ Light.otf");
+}
+
+@font-face {
+    font-family: "zamsilBold";
+    src: url("../../public/font/The Jamsil OTF 5 Bold.otf");
+}
+
+html, body {
+    height: 100%;
+    background: #463811;
+    /* text-align: center; */
+}
+
+.background {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.top {
+    padding: 5rem;
+    padding-left: 0px;
+    /* font-size: 100px; */
+    font-size: 3rem;
+    color: #fff;
+    font-family: zamsilLight;
+    word-break: keep-all;
+    text-align: left;
+}
+
+.middle {
+    padding-top: 3rem;
+}
+
+.imgsize {
+    width: 400px;
+    height: 285px;
+    margin-top: 3rem;
+}
+
+.imgdiv {
+    width: 400px;
+    height: 285px;
+    line-height: 285px;
+    margin-top: 3rem;
+}
+
+underlinelight {
+    font-weight: bold;
+    position:relative;
+    border-bottom: 1px solid #D6C8A1;
+}
+
+underlinelight::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    transition: all 0.5s;
+    height: 100%;
+    border-bottom: 1px solid #D6C8A1;
+    width:0;
+}
+
+underlinelight:hover::before{
+    width: 100%;
+}
+
+.p1 {
+    font-family: zamsilThin;
+    /* padding-left: 50px; */
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.2rem;
+    color: #D6C8A1;
+    word-break: keep-all;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    /* background-color: red; */
+}
+
+.pImage {
+    font-family: zamsilThin;
+    color: #D6C8A1;
+    font-size:1.1rem;
+    word-break: keep-all;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: zamsilThin;
+    word-break: keep-all;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: zamsilThin;
+    word-break: keep-all;
+    text-align: left;
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: zamsilLight;
+    word-break: keep-all;
+    text-align: left;
+    /* background-color: gray; */
+}
+
+.colcontent {
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+  }

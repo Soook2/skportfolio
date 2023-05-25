@@ -1,0 +1,317 @@
+@font-face {
+    font-family: "zamsilThin";
+    src: url("../../public/font/The Jamsil OTF 1 Thin.otf");
+}
+
+@font-face {
+    font-family: "zamsilLight";
+    src: url("../../public/font/The\ Jamsil\ OTF\ 2\ Light.otf");
+}
+
+@font-face {
+    font-family: "zamsilBold";
+    src: url("../../public/font/The Jamsil OTF 5 Bold.otf");
+}
+
+.top {
+    padding: 5rem;
+    padding-left: 0px;
+    padding-bottom: 2rem;
+    /* font-size: 100px; */
+    font-size: 3rem;
+    color: #fff;
+    font-family: zamsilLight;
+    word-break: keep-all;
+    text-align: left;
+}
+
+.background {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: zamsilThin;
+    word-break: keep-all;
+    text-align: left;
+    /* padding-bottom: 2rem; */
+}
+
+.projectName {
+    font-size:2rem;
+    font-family: zamsilBold;
+    text-align: center;
+    color: #463811;
+}
+
+.p1 {
+    font-family: zamsilThin;
+    /* padding-left: 50px; */
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    color: #463811;
+    word-break: keep-all;
+    margin-bottom: 1rem;
+    /* padding-top: 20px; */
+    /* background-color: red; */
+}
+
+.readMoreDiv {
+    text-align: center;
+    font-family: zamsilThin;
+}
+
+.sendbtn {
+    /* background-color: #D6C8A1;
+    width: fit-content;
+    text-align: center;
+    padding: 1rem;
+    font-family: zamsilThin;
+    color: #463811; */
+    /* text-align: center;
+    margin: 0 auto; */
+    background-color: unset;
+    border-radius: 20px;
+    border: 1px solid #463811;
+    color: #463811;
+    font-size: 1.125em;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+.sendbtn:hover {
+    background-color: #463811;
+    color: #D6C8A1;
+}
+
+bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.middle {
+    background-color: #D6C8A1;
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 30px;
+    overflow: hidden;
+    margin-top: 2rem;
+    /* text-align: center; */
+}
+
+/* 정방향 움직임 */
+@keyframes scroller1 {
+	0% {
+    transform: translateX(0);
+  }
+	100% {
+    transform: translateX( calc(-380px * 6) );
+  }
+}
+
+/* 역방향 움직임 */
+@keyframes scroller2 {
+	100% {
+    transform: translateX(0);
+  }
+	0% {
+    transform: translateX( calc(-380px * 6) );
+  }
+}
+
+.photoContainer {
+    position: relative;
+    top : -90px;
+    left: -120px;
+}
+
+.photoContItemAnimation1 {
+    display: flex;
+    width: calc(380px * 6);
+    margin-left: 150px;
+    margin-bottom: 0px;
+    animation: scroller1 30s linear infinite;
+    display: flex;
+	width: calc(380px * 12);
+}
+
+.photoContItemAnimation2 {
+    display: flex;
+    width: calc(380px * 6);
+    margin-left: 150px;
+    margin-bottom: 0px;
+    animation: scroller2 30s linear infinite;
+    display: flex;
+	width: calc(380px * 12);
+}
+
+.photoItemPhoto1 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/deep1.png);
+}
+
+.photoItemPhoto2 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/deep2.png);
+}
+
+.photoItemPhoto3 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/deep3.png);
+}
+
+.photoItemPhoto4 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/deep5.png);
+}
+
+.photoItemPhoto5 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/deep6.png);
+}
+
+.photoItemPhoto6 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/deep7.png);
+}
+
+.photoItemPhoto7 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/store1.png);
+}
+
+.photoItemPhoto8 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/store2.png);
+}
+
+.photoItemPhoto9 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/store3.png);
+}
+
+.photoItemPhoto10 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/store4.png);
+}
+
+.photoItemPhoto11 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/store5.png);
+}
+
+.photoItemPhoto12 {
+    width: 320px;
+    height: 200px;
+    margin-right: 60px;
+    /* margin-bottom: 60px; */
+    border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(../../public/project/store6.png);
+}
+
+
+
+
+

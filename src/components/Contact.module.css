@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "zamsilThin";
+    src: url("../../public/font/The Jamsil OTF 1 Thin.otf");
+}
+
+@font-face {
+    font-family: "zamsilLight";
+    src: url("../../public/font/The\ Jamsil\ OTF\ 2\ Light.otf");
+}
+
+@font-face {
+    font-family: "zamsilBold";
+    src: url("../../public/font/The Jamsil OTF 5 Bold.otf");
+}
+
+html, body {
+    height: 100%;
+    background: #463811;
+    /* text-align: center; */
+}
+
+.background {
+    display: flex;
+    justify-content: space-between;
+}
+
+.snowflake {
+    display: inline-block;
+	/* width: 0.1%; */
+	color: #D6C8A1;
+	opacity: 0;
+	font-size: 120px;
+	/* margin: 0;
+	padding: 0; */
+	animation: fall 16s linear infinite;
+  }
+
+  @keyframes fall {
+	0% {
+		opacity: 0;
+	}
+	3% {
+		opacity: 0.9;
+	}
+
+	90% {
+		opacity: 0.9;
+	}
+	100% {
+		transform: translate(0, 90vh);
+		opacity: 0;
+	}
+}
+
+.contact {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    /* text-align: center; */
+    width: 90%;
+    height: fit-content;
+}
+
+.title {
+    font-size: 3rem;
+    color: #D6C8A1;
+    font-family: zamsilLight;
+    word-break: keep-all;
+    /* text-align: right; */
+}
+
+.text1 {
+    font-size: 1.3rem;
+    color: #D6C8A1;
+    font-family: zamsilThin;
+    word-break: keep-all;
+    line-height: 1.7rem;
+    /* text-align: right; */
+}
+
+.text2 {
+    font-size: 1rem;
+    color: #D6C8A1;
+    font-family: zamsilThin;
+    word-break: keep-all;
+}
+
+.col {
+    padding-top: 30px;
+}
+
+.inputdiv {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 60px;
+    row-gap: 70px;
+    grid-column-gap: 30px;
+}
+
+.inputbox {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #D6C8A1;
+    background-color: unset;
+    color: #D6C8A1;
+    font-size: 1.125em;
+}
+
+.inputbox::placeholder {
+    color: #A4966F;
+  }
+
+.inputmessage {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #D6C8A1;
+    background-color: unset;
+    color: #D6C8A1;
+    font-size: 1.125em;
+    grid-column: 1/4;
+    margin-top: 7px;
+}
+
+.inputmessage::placeholder {
+    color: #A4966F;
+  }
+
+.sendbtn {
+    /* background-color: #D6C8A1;
+    width: fit-content;
+    text-align: center;
+    padding: 1rem;
+    font-family: zamsilThin;
+    color: #463811; */
+    font-family: zamsilThin;
+    background-color: unset;
+    border-radius: 20px;
+    border: 1px solid #D6C8A1;
+    color: #D6C8A1;
+    margin-top: 40px;
+    font-size: 1.125em;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+.sendbtn:hover {
+    background-color: #D6C8A1;
+    color: #463811;
+}

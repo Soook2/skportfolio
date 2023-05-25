@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "zamsilThin";
+    src: url("../../public/font/The Jamsil OTF 1 Thin.otf");
+  }
+  
+  @font-face {
+    font-family: "zamsilLight";
+    src: url("../../public/font/The\ Jamsil\ OTF\ 2\ Light.otf");
+  }
+  
+  @font-face {
+    font-family: "zamsilBold";
+    src: url("../../public/font/The Jamsil OTF 5 Bold.otf");
+  }
+  
+  underlinedark {
+    font-weight: bold;
+    position:relative;
+    border-bottom: 1px solid #463811;
+  }
+  
+  underlinedark::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    transition: all 0.5s;
+    height: 100%;
+    border-bottom: 1px solid #463811;
+    width:0;
+  }
+  
+  underlinedark:hover::before{
+    width: 100%;
+  }
+  
+  .background {
+    background-color: #D6C8A1;
+    color: #463811;
+    padding: 6%;
+  }
+  
+  .title {
+    font-size:2rem;
+    font-family: zamsilBold;
+    /* border-bottom: 1px solid #463811;
+    padding-bottom: 1rem; */
+  }
+  
+  .middle {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .subcontent{
+    margin-bottom: 3rem;
+  }
+  
+  .subtitle {
+    font-size: 1.7rem;
+    font-family: zamsilLight;
+    color: #463811;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .content{
+    font-family: zamsilThin;
+    font-size: 1rem;
+    color: #463811;
+    padding-bottom: 1.7rem;
+    line-height: 1.5rem;
+  }
+  
+  .colcontent {
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .col1 {
+    padding-right: 4%;
+    /* margin: auto 0; */
+  }
+  
+  .col2 {
+    padding-left: 4%;
+    /* margin: auto 0; */
+  }
+  
+  .gifdiv {
+    /* width:"90%"; */
+    background-color: #463811;
+    text-align: center;
+    padding: 4% 0;
+  }
+  
+  .respondiv {
+    background-color: #463811;
+    text-align: center;
+    padding: 4% 0;
+    /* height: 100px; */
+  }
+  
+  .gifimage {
+    /* max-width: 100%;
+    height: auto !important; */
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 70%;
+  }
+
+  .functionimage {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 90%;
+  }
+
+  .wbsimage {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 90%;
+  }
+
+  .useimage {
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 80%;
+  }
+
+  .menualimage {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 41.5%;
+  }
+
+  .funtiondiv {
+    width: 100%;
+  }
+
+  .wbsdiv {
+    width: 100%;
+  }
+
+  .worddiv {
+    width: 100%;
+  }
+
+  .usediv {
+    width: 50%;
+    float: left;
+  }
+
+  .menualdiv {
+
+  }
+  
+  .dbimage {
+    /* max-width: 100%;
+    height: auto !important; */
+    margin-bottom: 0%;
+    /* margin-top: 2%; */
+    width: 100%;
+  }
+  
+  .responimage1 {
+    /* max-width: 100%;
+    height: auto !important; */
+    margin-bottom: 2%;
+    margin-top: 2%;
+    /* height: 10%; */
+    width: 70%
+  }
+  
+  .langcontent{
+    font-family: zamsilThin;
+    font-size: 1rem;
+    color: #D6C8A1;
+    padding-bottom: 1.7rem;
+    line-height: 1.5rem;
+  }
+
+  .responcontent{
+    font-family: zamsilThin;
+    font-size: 1rem;
+    color: #D6C8A1;
+    /* padding-bottom: 1.7rem; */
+    line-height: 1.5rem;
+  }
+  

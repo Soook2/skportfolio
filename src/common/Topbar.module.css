@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "zamsilThin";
+    src: url("../../public/font/The Jamsil OTF 1 Thin.otf");
+  }
+  
+  @font-face {
+    font-family: "zamsilLight";
+    src: url("../../public/font/The\ Jamsil\ OTF\ 2\ Light.otf");
+  }
+  
+  @font-face {
+    font-family: "zamsilBold";
+    src: url("../../public/font/The Jamsil OTF 5 Bold.otf");
+  }
+
+.topbarbackground {
+    color:#D6C8A1;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    /* width: fit-content; */
+    font-family: zamsilLight;
+    height: 60px;
+    z-index: 15;
+    position: fixed;
+}
+
+@media screen and (max-width: 768px){
+    .topbarbackground {
+        display: none;
+    }
+}
+
+.topbarbackground2 {
+    display: none;
+    color:#D6C8A1;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    /* width: fit-content; */
+    font-family: zamsilLight;
+    height: 60px;
+    z-index: 15;
+    position: fixed;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .topbarbackground2 {
+        display: block;
+    }
+}
+
+.opentopbar{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: #463811;
+    display: flex;
+    flex-direction: column;
+    animation-name: animationopenmenu;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes animationopenmenu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.opentopbardiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    z-index: 2;
+}
+
+.closebtn{
+    position: absolute;
+    right: 20px;
+    font-family: zamsilThin;
+    height: 30px;
+    z-index: 20;
+    top: 20px;
+    font-size: 1rem;
+    color: #D6C8A1;
+    width: 50px;
+    text-align: right;
+}
+
+.menu {
+    display: inline-block;
+    width: fit-content;
+}
+
+.openmenu1 {
+    float: left;
+}
+
+.openmenu2 {
+    float: left;
+    margin-left: 20px;
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/skportfolio/static/css/main.e8051336.css",
+    "main.js": "/skportfolio/static/js/main.98b1cd26.js",
+    "static/media/deep1.png": "/skportfolio/static/media/deep1.f3d8886cf180adac2959.png",
+    "static/media/deep2.png": "/skportfolio/static/media/deep2.0a7082e36d871549dce7.png",
+    "static/media/deep5.png": "/skportfolio/static/media/deep5.815ffedb0992d69a7dcd.png",
+    "static/media/The Jamsil OTF 5 Bold.otf": "/skportfolio/static/media/The Jamsil OTF 5 Bold.a5ac2e292ec84c0ff3bf.otf",
+    "static/media/The Jamsil OTF 2 Light.otf": "/skportfolio/static/media/The Jamsil OTF 2 Light.f35ac7c0ec42801cd631.otf",
+    "static/media/The Jamsil OTF 1 Thin.otf": "/skportfolio/static/media/The Jamsil OTF 1 Thin.a24bec553a2022d182e1.otf",
+    "static/media/store4.png": "/skportfolio/static/media/store4.9235f8d8d3b5dd3bbd6d.png",
+    "static/media/store5.png": "/skportfolio/static/media/store5.f8b0f3fc8cb322e0fd42.png",
+    "static/media/deep3.png": "/skportfolio/static/media/deep3.6ea67bd626d0889c11da.png",
+    "static/media/deep7.png": "/skportfolio/static/media/deep7.d22be8c2a0a2de0621b0.png",
+    "static/media/deep-lsk.jpg": "/skportfolio/static/media/deep-lsk.268ad541cdcc3eba5148.jpg",
+    "static/media/deep6.png": "/skportfolio/static/media/deep6.52eb4469469e9d24d77c.png",
+    "static/media/store6.png": "/skportfolio/static/media/store6.bd572339d061b5ad36ac.png",
+    "static/media/store2.png": "/skportfolio/static/media/store2.5c16e8961ddb31c5df80.png",
+    "static/media/store3.png": "/skportfolio/static/media/store3.9b6606eb989b8e062709.png",
+    "static/media/store1.png": "/skportfolio/static/media/store1.611282d854ea1e06649a.png",
+    "index.html": "/skportfolio/index.html",
+    "main.e8051336.css.map": "/skportfolio/static/css/main.e8051336.css.map",
+    "main.98b1cd26.js.map": "/skportfolio/static/js/main.98b1cd26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8051336.css",
+    "static/js/main.98b1cd26.js"
+  ]
+}

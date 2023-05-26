@@ -9,7 +9,6 @@ export default function ProjectModal() {
     AOS.init();
 
     const [isHover1, setisHoever1] = useState(false);
-    // const [isHover2, setisHoever2] = useState(false);
 
   return (
     <>
@@ -33,7 +32,7 @@ export default function ProjectModal() {
 
             <div className={styles.subcontent}>
                 <div className={styles.gifdiv}>
-                    <img  src="p2_main.gif" alt="" className={styles.gifimage}/>
+                    <img  src={`${process.env.PUBLIC_URL}/project/p2_main.gif`} alt="" className={styles.gifimage}/>
                 </div>
             </div>
 
@@ -45,22 +44,23 @@ export default function ProjectModal() {
                         <Col lg= {12} md= {24} className={styles.colcontent}>
                             <p className={styles.responcontent}>요구사항수집서, 기능명세서</p>
                             <div className={styles.funtiondiv}>
-                                <img  src="function.png" alt="" className={styles.functionimage}/>
+                                <img  src={`${process.env.PUBLIC_URL}/project/function.png`} alt="" className={styles.functionimage}/>
                             </div>
                         </Col>
                         <Col lg = {12} md= {24} className={styles.colcontent}>
                             <p className={styles.responcontent}>WBS</p>
                             <div className={styles.wbsdiv}>
-                            <img  src="wbs.png" alt="" className={styles.wbsimage}/>
+
+                            <img  src={`${process.env.PUBLIC_URL}/project/wbs.png`} alt="" className={styles.wbsimage}/>
                             </div>
                             <div className={styles.worddiv}>
                                 <div className={styles.usediv}>
                                 <p className={styles.responcontent}>UseCase 다이어그램, 명세서</p>
-                                <img  src="usecase.png" alt="" className={styles.useimage}/>
+                                <img  src={`${process.env.PUBLIC_URL}/project/usecase.png`} alt="" className={styles.useimage}/>
                                 </div>
                                 <div className={styles.menualdiv}>
                                 <p className={styles.responcontent}>프로그램 메뉴얼</p>
-                                <img  src="menual.png" alt="" className={styles.menualimage}/>
+                                <img  src={`${process.env.PUBLIC_URL}/project/menual.png`} alt="" className={styles.menualimage}/>
                                 </div>
                             </div>
                         </Col>
@@ -72,17 +72,15 @@ export default function ProjectModal() {
                  <Row >
                     <Col lg= {15} md= {24} className={styles.colcontent}>
                     <div className={styles.gifdiv}>
-                        <img  src="p2_select.gif" alt="" className={styles.gifimage}/>
-                        {/* <img  src="cart.gif" alt="" className={styles.gifimage}/> */}
+                        <img  src={`${process.env.PUBLIC_URL}/project/p2_select.gif`} alt="" className={styles.gifimage}/>
                     </div>
                     </Col>
                     <Col lg = {9} md= {24} className={styles.col2}>
                         <p className={styles.subtitle}>Explanation</p>
-                        {/* <p className={styles.content}>로그인 한 사용자는 상품을 업로드 할 수 있습니다. 업로드 한 상품 정보는 <underlinedark onMouseOver={()=>setisHoever1(true)} onMouseOut={() => setisHoever1(false)}>Swagger</underlinedark>를 연동하여 실시간으로 저장되며, 화면에 바로 표시됩니다. 업로드 된 상품을 클릭 시 상품의 상세 정보를 확인할 수 있고 "Add to Cart" 버튼 클릭 시 장바구니에 해당 상품을  담고 결제할 수 있습니다. </p> */}
                         <p className={styles.content}>로그인 한 사용자에 한해 서비스를 이용할 수 있습니다. 로그인 후 프로젝트 생성을 통해 원하는 시설물을 선택하고 해당 시설물에 알맞는 설정을 입력하면 DB에 해당 프로젝트 정보가 저장됩니다. 모든 API는 <underlinedark onMouseOver={()=>setisHoever1(true)} onMouseOut={() => setisHoever1(false)}>Swagger</underlinedark>를 통해 직접 테스트하며 개발 진행하였습니다.</p>
                         { 
                             isHover1 ?
-                            <img  src="file_swagger.png" alt="" className={styles.dbimage} data-aos="fade-right"/>
+                            <img  src={`${process.env.PUBLIC_URL}/project/file_swagger.png`} alt="" className={styles.dbimage} data-aos="fade-right"/>
                             :
                             <div></div>                        
                         }
@@ -102,8 +100,8 @@ export default function ProjectModal() {
                     </Col>
                     <Col lg= {15} md= {24} className={styles.colcontent}>
                     <div className={styles.gifdiv}>
-                        <img  src="p2_edit.gif" alt="" className={styles.gifimage}/>
-                        <img  src="p2_detector.gif" alt="" className={styles.gifimage}/>
+                        <img  src={`${process.env.PUBLIC_URL}/project/p2_edit.gif`} alt="" className={styles.gifimage}/>
+                        <img  src={`${process.env.PUBLIC_URL}/project/p2_detector.gif`} alt="" className={styles.gifimage}/>
                     </div>
                     </Col>
                 </Row>
@@ -116,11 +114,11 @@ export default function ProjectModal() {
                     <Row>
                         <Col lg= {12} md= {24} className={styles.colcontent}>
                             <p className={styles.responcontent}>영어 설정</p>
-                            <img  src="lang_en.png" alt="" className={styles.responimage1}/>
+                            <img  src={`${process.env.PUBLIC_URL}/project/lang_en.png`} alt="" className={styles.responimage1}/>
                         </Col>
                         <Col lg = {12} md= {24} className={styles.colcontent}>
                             <p className={styles.responcontent}>한국어 설정</p>
-                            <img  src="lang_ko.png" alt="" className={styles.responimage1}/>
+                            <img  src={`${process.env.PUBLIC_URL}/project/lang_ko.png`} alt="" className={styles.responimage1}/>
                         </Col>
                     </Row>
                 </div>

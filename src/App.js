@@ -1,4 +1,3 @@
-// import styles from'./App.module.css';
 import './App.css';
 import {useState, useEffect} from 'react';
 import $ from 'jquery';
@@ -41,7 +40,6 @@ function App() {
       </div>
 
       <div className="magic"></div>
-      {/* <p class="check-out">Check out my other <a href="https://codepen.io/suez/public/" target="_blank">pens</a></p> */}
 
     </div>
   );

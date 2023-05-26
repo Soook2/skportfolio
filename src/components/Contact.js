@@ -2,12 +2,11 @@ import React, { useRef } from 'react'
 import styles from'./Contact.module.css';
 import AnimatedCursor from "react-animated-cursor"
 import Topbar from '../common/Topbar'
-import { Col, Row} from 'antd';
+import { Col, Row } from 'antd';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
-    // const [IsChecked, setIsChecked] = useState(false);
     const form = useRef();
 
     const sendEmail = e => {
@@ -20,14 +19,15 @@ export default function Contact() {
             form.current,
             'FR3e9Ho-w2Y_prlwe'
         )
+
         .then(
             res => {
-            alert('메일이 전송되었습니다.');
-            console.log(res);
+              console.log(res);
+              alert("메일을 정상적으로 전송하였습니다.");
             },
             err => {
-            alert('메일 전송에 실패하였습니다. 다시 시도해주세요.');
-            console.log(err);
+              console.log(err);
+              alert("메일 전송을 실패하였습니다. 번호로 연락바랍니다.")
             }
         );
       };
@@ -41,14 +41,13 @@ export default function Contact() {
       };
 
       const makeSnowFlakes = () => {
-        let animationDelay = "0s"; // 기본 값은 0초이다.
-        let fontSize = "14px"; // 기본 폰트사이즈는 14px로 했다.
-        const arr = Array.from("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"); // length가 15인 array가 생긴다.
+        let animationDelay = "0s"; 
+        let fontSize = "14px"; 
+        const arr = Array.from("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"); 
       
-        // arr의 length 만큼의 <SnowFlake />를 반환한다.
         return arr.map((el, i) => {
-          animationDelay = `${(Math.random() * 16).toFixed(2)}s`; // 0~16 사이에서 소수점 2번째 자리수까지의 랜덤숫자
-          fontSize = `${Math.floor(Math.random() * 10) + 10}px`; // 10~20 사이의 정수
+          animationDelay = `${(Math.random() * 16).toFixed(2)}s`; 
+          fontSize = `${Math.floor(Math.random() * 10) + 10}px`; 
           const style = {
             animationDelay,
             fontSize,

@@ -19,9 +19,7 @@ export default function About() {
 
     <div className={styles.background}>
         <div data-aos="zoom-in" className={styles.top}>
-            {/* <h2> */}
                 "FrontEnd 개발자, 이수경입니다."
-            {/* </h2> */}
         </div>
 
         <h4>
@@ -29,8 +27,7 @@ export default function About() {
         </h4>
         <div className={styles.middle}>
             <Row >
-            <Col lg={8} md={24}>
-
+            <Col lg={8} md={24} className={styles.imagecol}>
                 {
                     isHover1 ?
                     <img  src="code.gif" alt="" className={styles.imgsize}/>

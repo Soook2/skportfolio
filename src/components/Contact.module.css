@@ -16,7 +16,6 @@
 html, body {
     height: 100%;
     background: #463811;
-    /* text-align: center; */
 }
 
 .background {
@@ -26,12 +25,9 @@ html, body {
 
 .snowflake {
     display: inline-block;
-	/* width: 0.1%; */
 	color: #D6C8A1;
 	opacity: 0;
 	font-size: 120px;
-	/* margin: 0;
-	padding: 0; */
 	animation: fall 16s linear infinite;
   }
 
@@ -59,7 +55,6 @@ html, body {
     left:0;
     right: 0;
     margin: auto;
-    /* text-align: center; */
     width: 90%;
     height: fit-content;
 }
@@ -69,7 +64,6 @@ html, body {
     color: #D6C8A1;
     font-family: zamsilLight;
     word-break: keep-all;
-    /* text-align: right; */
 }
 
 .text1 {
@@ -78,7 +72,6 @@ html, body {
     font-family: zamsilThin;
     word-break: keep-all;
     line-height: 1.7rem;
-    /* text-align: right; */
 }
 
 .text2 {
@@ -130,12 +123,6 @@ html, body {
   }
 
 .sendbtn {
-    /* background-color: #D6C8A1;
-    width: fit-content;
-    text-align: center;
-    padding: 1rem;
-    font-family: zamsilThin;
-    color: #463811; */
     font-family: zamsilThin;
     background-color: unset;
     border-radius: 20px;

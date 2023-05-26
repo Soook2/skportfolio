@@ -17,7 +17,6 @@
     padding: 5rem;
     padding-left: 0px;
     padding-bottom: 2rem;
-    /* font-size: 100px; */
     font-size: 3rem;
     color: #fff;
     font-family: zamsilLight;
@@ -36,7 +35,6 @@ h4 {
     font-family: zamsilThin;
     word-break: keep-all;
     text-align: left;
-    /* padding-bottom: 2rem; */
 }
 
 .projectName {
@@ -48,15 +46,12 @@ h4 {
 
 .p1 {
     font-family: zamsilThin;
-    /* padding-left: 50px; */
     text-align: left;
     line-height: 1.5rem;
     font-size: 1.1rem;
     color: #463811;
     word-break: keep-all;
     margin-bottom: 1rem;
-    /* padding-top: 20px; */
-    /* background-color: red; */
 }
 
 .readMoreDiv {
@@ -65,14 +60,6 @@ h4 {
 }
 
 .sendbtn {
-    /* background-color: #D6C8A1;
-    width: fit-content;
-    text-align: center;
-    padding: 1rem;
-    font-family: zamsilThin;
-    color: #463811; */
-    /* text-align: center;
-    margin: 0 auto; */
     background-color: unset;
     border-radius: 20px;
     border: 1px solid #463811;
@@ -92,12 +79,6 @@ bold {
     font-weight: bold;
 }
 
-
-
-
-
-
-
 .middle {
     background-color: #D6C8A1;
     width: 100%;
@@ -106,7 +87,6 @@ bold {
     padding: 30px;
     overflow: hidden;
     margin-top: 2rem;
-    /* text-align: center; */
 }
 
 /* 정방향 움직임 */
@@ -159,7 +139,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,7 +151,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,7 +163,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,7 +175,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -211,7 +187,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -224,7 +199,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -237,7 +211,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -250,7 +223,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -263,7 +235,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,7 +247,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -289,7 +259,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,7 +271,6 @@ bold {
     width: 320px;
     height: 200px;
     margin-right: 60px;
-    /* margin-bottom: 60px; */
     border-radius: 16px;
     background-size: cover;
     background-repeat: no-repeat;

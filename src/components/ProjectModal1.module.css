@@ -42,8 +42,6 @@ underlinedark:hover::before{
 .title {
   font-size:2rem;
   font-family: zamsilBold;
-  /* border-bottom: 1px solid #463811;
-  padding-bottom: 1rem; */
 }
 
 .middle {
@@ -81,16 +79,13 @@ underlinedark:hover::before{
 
 .col1 {
   padding-right: 4%;
-  /* margin: auto 0; */
 }
 
 .col2 {
   padding-left: 4%;
-  /* margin: auto 0; */
 }
 
 .gifdiv {
-  /* width:"90%"; */
   background-color: #463811;
   text-align: center;
   padding: 4% 0;
@@ -100,49 +95,34 @@ underlinedark:hover::before{
   background-color: #463811;
   text-align: center;
   padding: 4% 0;
-  /* height: 100px; */
 }
 
 .gifimage {
-  /* max-width: 100%;
-  height: auto !important; */
   margin-bottom: 2%;
   margin-top: 2%;
   width: 70%;
 }
 
 .dbimage {
-  /* max-width: 100%;
-  height: auto !important; */
   margin-bottom: 0%;
-  /* margin-top: 2%; */
   width: 100%;
 }
 
 .responimage1 {
-  /* max-width: 100%;
-  height: auto !important; */
   margin-bottom: 2%;
   margin-top: 2%;
-  /* height: 10%; */
   width: 70%
 }
 
 .responimage2 {
-  /* max-width: 100%;
-  height: auto !important; */
   margin-bottom: 2%;
   margin-top: 2%;
-  /* height: 10%; */
   width: 65%
 }
 
 .responimage3 {
-  /* max-width: 100%;
-  height: auto !important; */
   margin-bottom: 2%;
   margin-top: 2%;
-  /* height: 10%; */
   width: 90%
 }
 
@@ -150,6 +130,5 @@ underlinedark:hover::before{
   font-family: zamsilThin;
   font-size: 1rem;
   color: #D6C8A1;
-  /* padding-bottom: 1.7rem; */
   line-height: 1.5rem;
 }

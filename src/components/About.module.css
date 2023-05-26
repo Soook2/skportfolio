@@ -16,7 +16,6 @@
 html, body {
     height: 100%;
     background: #463811;
-    /* text-align: center; */
 }
 
 .background {
@@ -27,7 +26,6 @@ html, body {
 .top {
     padding: 5rem;
     padding-left: 0px;
-    /* font-size: 100px; */
     font-size: 3rem;
     color: #fff;
     font-family: zamsilLight;
@@ -39,17 +37,29 @@ html, body {
     padding-top: 3rem;
 }
 
+.imagecol{
+    padding: 1rem;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+  }
+
 .imgsize {
-    width: 400px;
-    height: 285px;
-    margin-top: 3rem;
+    width: 100%;    
 }
 
 .imgdiv {
-    width: 400px;
-    height: 285px;
-    line-height: 285px;
-    margin-top: 3rem;
+    height: 460px;
+    line-height: 460px;
+    display: none;
+}
+
+@media screen and (max-width: 994px){
+    .imgdiv {
+        display: block;
+    }
 }
 
 underlinelight {
@@ -74,7 +84,6 @@ underlinelight:hover::before{
 
 .p1 {
     font-family: zamsilThin;
-    /* padding-left: 50px; */
     text-align: left;
     line-height: 150%;
     font-size: 1.2rem;
@@ -82,7 +91,6 @@ underlinelight:hover::before{
     word-break: keep-all;
     padding-top: 1.5rem;
     padding-right: 2rem;
-    /* background-color: red; */
 }
 
 .pImage {
@@ -114,7 +122,6 @@ h2 {
     font-family: zamsilLight;
     word-break: keep-all;
     text-align: left;
-    /* background-color: gray; */
 }
 
 .colcontent {
@@ -124,3 +131,4 @@ h2 {
     right: 0;
     margin: auto;
   }
+
